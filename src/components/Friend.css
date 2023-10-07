@@ -1,0 +1,27 @@
+.friend,
+.friend-info-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.friend {
+  gap: 4.8rem;
+  justify-content: space-between;
+}
+.friend-info-wrapper {
+  gap: 1.6rem;
+}
+.friend-buttons-wrapper {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.friend-img {
+  border-radius: 50%;
+  width: 4.8rem;
+}
+
+.friend-name {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
