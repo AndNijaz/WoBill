@@ -1,18 +1,18 @@
 .friend,
-.friend-info-wrapper {
+.selected-friend,
+.friend-info-wrapper,
+.friend-buttons-wrapper {
   display: flex;
   align-items: center;
 }
 
-.friend {
+.friend,
+.selected-friend {
   gap: 4.8rem;
   justify-content: space-between;
 }
-.friend-info-wrapper {
-  gap: 1.6rem;
-}
+.friend-info-wrapper,
 .friend-buttons-wrapper {
-  display: flex;
   gap: 1.6rem;
 }
 
