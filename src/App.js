@@ -5,6 +5,7 @@ import Friend from "./components/Friend";
 import SelectedFriends from "./components/SelectedFriends";
 import SelectedFriend from "./components/SelectedFriend";
 import "./App.css";
+import AddFriend from "./components/AddFriend";
 
 function App() {
   const friends = [
@@ -62,6 +63,7 @@ function App() {
             <Friend friend={friend} key={friend.id} />
           ))}
         </Friends>
+        <AddFriend></AddFriend>
         <SelectedFriends>
           {selectedFriends.map((selectedFriends) => (
             <SelectedFriend friend={selectedFriends} key={selectedFriends.id} />
