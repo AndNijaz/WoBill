@@ -69,6 +69,10 @@ function App() {
             <SelectedFriend friend={selectedFriends} key={selectedFriends.id} />
           ))}
         </SelectedFriends>
+        {/* </SelectedFriends> */}
+        {/* </SelectedFriends> */}
+        {/* // </SelectedFriends> */}
+        {/* // </SelectedFriends> */}
       </div>
     </div>
   );
